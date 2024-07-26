@@ -16,5 +16,15 @@
   },
   "scripts": {
     "start": "cds-serve"
+  },
+  "cds": {
+    "requires": {
+      "rawsonDest": {
+        "kind": "rest",
+        "credentials": {
+          "destination": "rawsonDest"
+        }
+      }
+    }
   }
 }
